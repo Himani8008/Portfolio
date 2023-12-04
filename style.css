@@ -1,0 +1,239 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #232526;
+    background: linear-gradient(to right, #232526, #414345);
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background:linear-gradient(to right, #232526, rgb(58, 58, 58));
+    padding-bottom: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 100px;
+    margin: 0;
+    /* margin-bottom: -10px; */
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 0 10px;
+}
+
+nav ul li{
+    margin: 0 20px 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(212, 222, 232);
+}
+
+#hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero img{
+    height: 500px;
+    margin-right: 150px;
+}
+
+#content{
+    /* border: 2px solid aqua; */
+    /* background-color: black; */
+    box-shadow: 4px 2px 2px 2px rgba(0, 255, 255, 0.457);
+    border-radius: 4px;
+    padding-right:15px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    margin: 150px 150px;
+    color: white;
+    overflow: hidden;
+}
+
+#content h1{
+    /* font-size: 3rem; */
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+}
+
+#highlighted{
+    font-size: 3rem;
+    color: aqua;
+}
+
+#content h2{
+    margin-top: 0;
+}
+
+.contact{
+    color: aqua;
+    padding: 0.5rem 0.75rem;
+    border: 3px solid aqua;
+    border-radius: 6px;
+}
+
+.contact:hover{
+    transition: all 1s;
+    background-color: aqua;
+    color: white;
+}
+
+#about{
+    padding: 50px 40px 20px 80px;
+}
+
+#about h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.25rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#cont{
+    display: flex;
+}
+
+.line{
+    width: 80px;
+    height: 4px;
+    margin: 10px 5px 0 2px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+#cont p{
+    padding-top: 0;
+    margin-top: 0;
+    color: white;
+    padding-right: 100px;
+}
+
+.highlight{
+    color: aqua;
+}
+
+#projects{
+    margin-top: 100px;
+}
+
+#projects h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.25rem;
+}
+
+.project-content{
+    margin: 90px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.project-content img{
+    height: 350px;
+    width: 550px;
+}
+
+.vertical-line{
+    margin-left: 100px;
+    margin-right: 100px;
+    width:4px;
+    height: 350px; 
+    background-color: aqua;
+}
+
+.project-description{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    display: inline-block;
+    margin-top: 55px;
+    border-radius: 4px;
+    height: 250px;
+    padding-left: 0.75rem;
+    background-color: #414345;
+    color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0, 255, 255, 0.264);
+}
+
+.project-description h2{
+    display: inline-block;
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a{
+    color: aqua;
+}
+
+.links a span{
+    transition: margin-right 1s;
+}
+
+.links a:hover span{
+    margin-right: 0.5rem;
+}
+
+#education{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#education h1{
+    font-weight: bolder;
+    font-size: 2.25rem;
+}
+
+#education table{
+    margin: 10px auto 10px auto;
+}
+
+#education table tr td{
+    color: aliceblue;
+    padding: 0.75rem 1.75rem;
+    margin: 50px;
+    margin-right: 70px;
+}
+
+footer{
+    background-color: #414345;
+}
+
+.last{
+    margin-left: 80px;
+    margin-bottom: 30px;
+    padding: 0.5rem 0.75rem;
+    /* border: 1px solid aqua; */
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: #232526;
+    cursor: pointer;
+}
